@@ -1,0 +1,12 @@
+name: speed_dial
+description: A Speed dial floating action button widget.
+version: 0.0.1
+author: Abdul Rahman K <kadkab.abdul@gmail.com>
+homepage: https://github.com/abdulrahmank/SpeedDialFAB
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
