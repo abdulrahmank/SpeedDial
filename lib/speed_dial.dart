@@ -3,7 +3,6 @@ library speed_dial;
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-
 class SpeedDial extends StatefulWidget {
   final Widget primaryFAB;
   final List<FloatingActionButton> minimisedFABOptions;
@@ -15,11 +14,9 @@ class SpeedDial extends StatefulWidget {
   State<StatefulWidget> createState() {
     return _SpeedDialState(opened);
   }
-
 }
 
 class _SpeedDialState extends State<SpeedDial> {
-
   FloatingActionButton closeSpeedDialFAB;
   bool opened;
 
